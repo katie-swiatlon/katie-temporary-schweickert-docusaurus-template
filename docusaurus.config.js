@@ -5,7 +5,7 @@ module.exports = {
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon.svg",
+  favicon: "img/favicon.svg", // No favicon provided
   organizationName: "Schweickert", // Usually your GitHub org/user name.
   projectName: "schweickert-docusaurus-template", // Usually your repo name.
   themeConfig: {
