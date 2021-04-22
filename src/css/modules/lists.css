@@ -1,0 +1,4 @@
+/* Level2 lists should be lower-alpha */
+ol > li > ol {
+  list-style-type: lower-alpha;
+}

@@ -7,6 +7,7 @@
 
 @import "modules/typography.css";
 @import "modules/colors.css";
+@import "modules/lists.css";
 @import "modules/codeblocks.css";
 @import "modules/right-toc.css";
 
@@ -14,4 +15,9 @@
 strong.navbar__title {
     display: none; /* uncomment once deployed to eD */
     color: rgb(240,239,242);
+}
+
+/* Spacing between the top bar and heading fix */
+:root {
+    --ifm-h1-vertical-rhythm-top: 3;
 }
