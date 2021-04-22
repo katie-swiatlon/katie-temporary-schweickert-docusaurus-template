@@ -19,5 +19,5 @@ strong.navbar__title {
 
 /* Spacing between the top bar and heading fix */
 :root {
-    --ifm-h1-vertical-rhythm-top: 3;
+    --ifm-h1-vertical-rhythm-top: 0;
 }
