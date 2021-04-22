@@ -134,3 +134,9 @@ div.admonition,
 div.admonition * {
     color: #f5f6f7;
 }
+
+/* Fix issues with background colors */
+div.admonition code {
+    color: #f5f6f7;
+    background-color: rgb(72, 77, 91);
+}
