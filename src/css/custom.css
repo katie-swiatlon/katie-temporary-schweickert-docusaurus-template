@@ -21,3 +21,6 @@ strong.navbar__title {
 :root {
     --ifm-h1-vertical-rhythm-top: 0;
 }
+div.markdown > h1:first-child {
+    margin-top: 0;
+}
