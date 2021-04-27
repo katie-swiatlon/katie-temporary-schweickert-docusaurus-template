@@ -106,4 +106,3 @@ dist
 build
 yarn.lock
 docs/
-sidebars.js

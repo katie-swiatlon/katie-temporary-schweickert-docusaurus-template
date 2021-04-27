@@ -1,0 +1,6 @@
+/* Modify logo placement */
+div.navbar__inner > div > a > img {
+width: 125%;
+height: 125%;
+margin-left: -2.72%;
+}
