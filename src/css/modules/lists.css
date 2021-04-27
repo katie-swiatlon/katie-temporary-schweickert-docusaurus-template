@@ -4,6 +4,13 @@ ol > li > ol {
 }
 
 /* Fix margins for unordered list items */
-ul li > p.p {
+ul li > p.p,
+ol li > p.p {
   margin: 0;
 }
+
+/*
+ol li,
+ul li {
+  margin: 0 0 20px;
+}*/
