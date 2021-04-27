@@ -1,0 +1,11 @@
+/* Hide menucascade symbols */
+abbr[title] {
+display: none;
+}
+
+/* Apply custom menucascade symbols */
+abbr + span.uicontrol::before {
+  /*content: " ⇨ ";*/
+  content: " → ";
+  display: inline;
+}
