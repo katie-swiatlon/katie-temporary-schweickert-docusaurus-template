@@ -2,3 +2,8 @@
 ol > li > ol {
   list-style-type: lower-alpha;
 }
+
+/* Fix margins for unordered list items */
+ul li > p.p {
+  margin: 0;
+}
