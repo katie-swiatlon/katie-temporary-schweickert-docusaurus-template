@@ -9,6 +9,7 @@
 @import "modules/colors.css";
 @import "modules/lists.css";
 @import "modules/codeblocks.css";
+@import "modules/menucascades.css";
 @import "modules/right-toc.css";
 
 /* Remove navbar title on the right of the logo */
