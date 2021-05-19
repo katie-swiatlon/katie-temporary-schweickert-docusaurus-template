@@ -16,6 +16,10 @@
 @import "modules/codeblocks.css";
 @import "modules/menucascades.css";
 @import "modules/note.css";
+@import "modules/uicontrol.css";
+@import "modules/wintitle.css";
+@import "modules/filepath.css";
+
 
 /* Backward-compatibility */
 @import "modules/legacy_code.css";

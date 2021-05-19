@@ -1,0 +1,17 @@
+.filepath {
+  text-rendering: optimizelegibility;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  list-style-type: lower-alpha;
+  word-wrap: break-word;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  background-color: var(--ifm-color-emphasis-0);
+  border: 1px solid var(--ifm-color-emphasis-400);
+  border-radius: 0.2rem;
+  box-shadow: inset 0 -1px 0 var(--ifm-color-emphasis-400);
+  color: var(--ifm-color-emphasis-800);
+  font: 80% var(--ifm-font-family-monospace);
+  padding: 0.15rem 0.3rem;
+}
