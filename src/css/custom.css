@@ -19,6 +19,7 @@
 @import "modules/uicontrol.css";
 @import "modules/wintitle.css";
 @import "modules/filepath.css";
+@import "modules/table.css";
 @import "modules/cause_condition_context_example_postreq_prereq_remedy_result_steps_stepsection.css";
 @import "modules/choices_info_stepresult_stepexample_solution_substeps_troublesolution.css";
 @import "modules/step_substep_numbering.css";
