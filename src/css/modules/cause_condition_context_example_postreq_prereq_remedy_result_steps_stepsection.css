@@ -119,12 +119,12 @@ article:not(.process) .steps-unordered::before {
   content: "Result";
 }
 
-/* Fix padding for stepsections. */
+/* Fix padding for stepsections. 
 .stepsection ~ .steps,
 .stepsection ~ .steps-unordered,
 .stepsection ~ .step {
   padding: 0;
-}
+}*/
 
 /* Add a margin between steps and task title if shortdesc is not present or empty. */
 .body ~ .steps,

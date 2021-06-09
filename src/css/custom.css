@@ -45,3 +45,9 @@ strong.navbar__title {
 .pre {
     white-space: pre-wrap;
 }
+
+/* Fix troublebody */
+
+div.troubleSolution {
+    padding-left: 0;
+}
