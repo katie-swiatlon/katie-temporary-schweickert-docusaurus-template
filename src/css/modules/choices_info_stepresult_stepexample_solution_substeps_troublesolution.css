@@ -10,14 +10,14 @@ Style trouble solution elements. */
 .substeps {
   font-style: normal;
   font-weight: normal;
-  margin: 2.5px 0px 5px 1px;
-  padding: 0px 0px 0.5px 10px;
+  margin: 0.156rem 0 0.313rem 0.063rem;
+  padding: 0 0 0.313rem 0.625rem;
 }
 
 /* Style trouble solution element. Add a margin between trouble solution elements.
 Span the left border across the cause and remedy elements. */
 .troubleSolution {
-  margin: 0px 0px 25px 0px;
+  margin: 0 0 1.563rem 0;
 }
 
 /* Style the step element children captions. */
