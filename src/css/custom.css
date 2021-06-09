@@ -40,3 +40,8 @@ strong.navbar__title {
 .markdown {
     --ifm-h1-vertical-rhythm-top: 0; 
 }
+
+/* Fix pre-based DITA elements */
+.pre {
+    white-space: pre-wrap;
+}
