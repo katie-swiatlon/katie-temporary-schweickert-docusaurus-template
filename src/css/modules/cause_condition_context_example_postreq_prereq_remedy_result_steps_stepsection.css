@@ -17,6 +17,15 @@
   font-size: 20px;
 }
 
+/* Fix the placement of cause, remedy, and condition captions. */
+.cause::before,
+.remedy::before {
+  margin-left: -1.2px;
+}
+.condition::before {
+  margin-left: -0.4px;
+}
+
 /* Set padding and margins for task topic and troubleshooting topic "parts". */
 .result,
 .example,
@@ -32,6 +41,17 @@
   margin: 15px 0px 5px 0px;
   padding: 0px !important; /* Removing the important property causes issues in PDF Gen and SSG */
 }
+
+/* Set margins between steps. 
+.step ~ .step {
+  margin-top: 10px;
+}*/
+
+/* Set margins between substeps. 
+.substep,
+.choice {
+  margin-top: 5px;
+}*/
 
 /* Add captions before prerequisite elements. */
 .prereq::before {
