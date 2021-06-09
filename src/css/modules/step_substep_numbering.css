@@ -1,0 +1,4 @@
+li.step::marker,
+li.substep::marker {
+  font-weight: bold;
+}
