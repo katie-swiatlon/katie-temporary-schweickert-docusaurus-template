@@ -1,0 +1,10 @@
+li.step::marker,
+li.substep::marker {
+  font-weight: bold;
+}
+
+/* Move substeps and choices to the right */
+ol.substeps,
+ul.choices {
+  margin-left: 0.5rem;
+}

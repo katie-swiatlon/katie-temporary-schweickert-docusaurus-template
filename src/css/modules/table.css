@@ -1,0 +1,12 @@
+th.entry {
+  background-color: #333333;
+  color: #ffffff;
+}
+th.entry * {
+  border: none;
+  font-weight: bold;
+  font-style: normal;
+  font-family: inherit;
+  color: #ffffff;
+  background-color: #333333;
+}
