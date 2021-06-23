@@ -10,3 +10,8 @@ th.entry * {
   color: #ffffff;
   background-color: #333333;
 }
+
+/* Left-align table titles */
+table.table > caption {
+  text-align: left;
+}
