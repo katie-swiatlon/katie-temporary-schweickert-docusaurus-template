@@ -1,0 +1,9 @@
+/* Enlarge the search field */
+div.dsla-search-field {
+  width: 13rem;
+}
+
+/* Set border radius for the search field */
+div.dsla-search-wrapper > div > div > button {
+  border-radius: var(--ifm-alert-border-radius);
+}

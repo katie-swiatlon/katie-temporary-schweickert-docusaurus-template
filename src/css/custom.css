@@ -10,6 +10,7 @@
 @import "modules/colors.css";
 @import "modules/right-toc.css";
 @import "modules/navbar.css";
+@import "modules/search.css";
 
 /* DITA/Central Content Area */
 @import "modules/lists.css";
