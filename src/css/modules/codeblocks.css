@@ -19,3 +19,7 @@ div.pre.codeblock {
     color: rgb(191, 199, 213);
     background-color: rgb(41, 45, 62);
 }
+
+code {
+    white-space: pre-wrap;
+}
