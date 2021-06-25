@@ -107,3 +107,4 @@ build
 yarn.lock
 docs/
 sidebars.js
+.vscode

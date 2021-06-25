@@ -1,0 +1,18 @@
+/* Enlarge the search field */
+div.dsla-search-field {
+  width: 13rem;
+}
+
+/* Set border radius for the search field */
+div.dsla-search-wrapper > div > div > button {
+  border-radius: var(--ifm-alert-border-radius);
+}
+
+/* Swap the search toggle button mode */
+#__docusaurus > nav > div.navbar__inner > div.navbar__items.navbar__items--right {
+  flex-direction: row-reverse;
+  display: inline-flexbox;
+}
+#__docusaurus > nav > div.navbar__inner > div.navbar__items.navbar__items--right > div.dsla-search-wrapper {
+  margin-right: 1rem;
+}

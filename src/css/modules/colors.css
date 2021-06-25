@@ -30,6 +30,19 @@
     border-color: #606770;
 }
 
+/* Search */
+:root[data-theme='light'] div.dsla-search-wrapper div.aa-DetachedSearchButtonIcon > svg,
+:root[data-theme='light'] #autocomplete-1-label > button > svg {
+    color: #333333;
+}
+
+/*
+div.dsla-search-wrapper > div > div > button:active,
+body > div.aa-DetachedOverlay > div > div > form:active,
+body > div.aa-DetachedOverlay > div > div > form:focus {
+    border-color: var(--ifm-color-primary);
+}*/
+
 /*** DARK ***/
 
 /* Text */
@@ -64,4 +77,14 @@
 :root[data-theme='dark'] #__docusaurus > div.main-wrapper button.button--sm:hover {
     border: var(--ifm-button-border-width) solid #606770;
     color: #eeeeee;
+}
+
+/* Search */
+:root[data-theme='dark'] div.dsla-search-wrapper div.aa-DetachedSearchButtonIcon > svg,
+#autocomplete-1-label > button > svg {
+    color: #eeeeee;
+}
+
+:root[data-theme='dark'] div.dsla-search-wrapper div.aa-DetachedSearchButtonPlaceholder {
+    color: #606770;
 }
