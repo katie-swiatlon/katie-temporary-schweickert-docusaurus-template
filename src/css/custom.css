@@ -52,8 +52,3 @@ b.navbar__title {
 div.troubleSolution {
     padding-left: 0;
 }
-
-/* Fix issues with choicetables */
-table {
-    border: none;
-}
