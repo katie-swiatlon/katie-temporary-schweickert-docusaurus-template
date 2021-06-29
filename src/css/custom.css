@@ -49,7 +49,12 @@ b.navbar__title {
 }
 
 /* Fix troublebody */
-
 div.troubleSolution {
     padding-left: 0;
+}
+
+/* Disables figure numbering. */
+.fig--title-label {
+    display: none;
+    content: none;
 }

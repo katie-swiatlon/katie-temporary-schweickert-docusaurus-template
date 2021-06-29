@@ -15,3 +15,14 @@ th.entry * {
 table.table > caption {
   text-align: left;
 }
+
+/* Fix issues with choicetables */
+table {
+  border: none;
+}
+
+/* Disable table numbering. */
+span.table--title-label {
+  display: none;
+  content: none;
+}
