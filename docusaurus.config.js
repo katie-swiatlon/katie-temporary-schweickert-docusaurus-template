@@ -39,17 +39,17 @@ module.exports = {
   },
   presets: [
     [
-      "@docusaurus/preset-classic",
+      '@docusaurus/preset-classic',
       {
         blog: false,
         pages: false,
         docs: {
-          sidebarPath: require.resolve("./sidebars.js"),
-          path: "./docs",
-          routeBasePath: "/",
+          sidebarPath: require.resolve('./sidebars.js'),
+          path: './docs',
+          routeBasePath: '/',
         },
         theme: {
-          customCss: require.resolve("./src/css/custom.css"),
+          customCss: require.resolve('./src/css/custom.css'),
         },
       },
     ],
