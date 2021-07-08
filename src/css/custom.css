@@ -60,6 +60,11 @@ div.troubleSolution {
 }
 
 /* Fix anchors position */
-.anchor_top_offset {
+.anchor_top_offset::before {
     top: calc(var(--ifm-navbar-height) * -1);
+    content: '';
+    display: block;
+    height: calc(var(--ifm-navbar-height));
+    margin-top: calc(var(--ifm-navbar-height) * -1);
+    visibility: hidden;
 }
