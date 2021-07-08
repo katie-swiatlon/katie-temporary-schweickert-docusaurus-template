@@ -58,3 +58,8 @@ div.troubleSolution {
     display: none;
     content: none;
 }
+
+/* Fix anchors position */
+.anchor_top_offset {
+    top: calc(var(--ifm-navbar-height) * -1);
+}
