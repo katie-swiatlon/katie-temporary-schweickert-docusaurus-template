@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@cmfcmf/docusaurus-search-local": "latest",
-    "@docusaurus/core": "2.0.0-beta.9",   
+    "@docusaurus/core": "2.0.0-beta.9",  
     "@docusaurus/preset-classic": "2.0.0-beta.9",
     "@mdx-js/react": "latest",
     "clsx": "latest",
